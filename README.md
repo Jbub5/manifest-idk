@@ -4,8 +4,8 @@
 
 ### Sync ###
 ```bash
-        repo init -u https://github.com/VoltageOS/manifest -b 12l
-        repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+        repo init -u https://github.com/Jbub5/manifest-idk -b 12l --git-lfs
+        repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune
 ```
 
 ### Build ###

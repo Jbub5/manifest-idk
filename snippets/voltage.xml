@@ -5,14 +5,6 @@
            revision="12l"
            fetch="https://github.com/VoltageOS" />
 
-  <remote  name="voltage-staging"
-           revision="12l"
-           fetch="https://github.com/VoltageOS-staging" />
-
-  <remote  name="VoltageOS-Devices"
-           revision="12l"
-           fetch="https://github.com/VoltageOS-Devices" />
-
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
 
@@ -104,7 +96,7 @@
     <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="voltage" />
 
     <!-- Prebuilts -->
-    <project path="prebuilts/clang/host/linux-x86/trb_clang" name="varunhardgamer/trb_clang" clone-depth="1" revision="16" remote="gitlab" />
+    <project path="prebuilts/clang/host/linux-x86/trb_clang" name="varunhardgamer/trb_clang" clone-depth="1" revision="17" remote="gitlab" />
 
     <!-- External -->
     <project path="external/gptfdisk" name="external_gptfdisk" remote="voltage" />
