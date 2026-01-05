@@ -13,6 +13,12 @@
             sync-c="true"
             sync-j="4" />
 
+   <remote  name="jbub5"
+            fetch="https://github.com/Jbub5"
+            revision="refs/heads/15-qpr2+"
+            sync-c="true"
+            sync-j="4" />
+
    <remote  name="gitlab"
             revision="refs/heads/15-qpr2"
             fetch="https://gitlab.com/voltageos"
