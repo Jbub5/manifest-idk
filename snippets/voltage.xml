@@ -25,12 +25,6 @@
   <project path="libcore" name="libcore" remote="vos" revision="15-qpr2" />
 
   <!-- Device -->
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="vos" revision="15-qpr2" />
-  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="vos" revision="15-qpr2" />
-  <project path="device/qcom/sepolicy_vndr/legacy-um" name="device_qcom_sepolicy_vndr_legacy-um" remote="vos" revision="15-qpr2" />
-  <project path="device/qcom/sepolicy_vndr/sm8450" name="device_qcom_sepolicy_vndr_sm8450" remote="vos" revision="15-qpr2" />
-  <project path="device/qcom/sepolicy_vndr/sm8550" name="device_qcom_sepolicy_vndr_sm8550" remote="vos" revision="15-qpr2" />
-  <project path="device/qcom/sepolicy_vndr/sm8650" name="device_qcom_sepolicy_vndr_sm8650" remote="vos" revision="15-qpr2" />
   <project path="device/voltage/sepolicy" name="device_voltage_sepolicy" remote="vos" revision="15-qpr2" />
 
   <!-- External -->
@@ -73,38 +67,6 @@
   <project path="hardware/lineage/compat" name="hardware_lineage_compat" remote="vos" revision="15-qpr2" />
   <project path="hardware/lineage/interfaces" name="hardware_voltage_interfaces" remote="vos" revision="15-qpr2" />
   <project path="hardware/lineage/livedisplay" name="hardware_lineage_livedisplay" remote="vos" revision="15-qpr2" />
-  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="vos" revision="15-qpr2" />
-  <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="vos" revision="15-qpr2" />
-  <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="vos" revision="15-qpr2" >
-    <!-- add guard for AOSP hardware/qcom dir -->
-    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
-    <!-- add guards for CAF repositories -->
-    <linkfile src="os_pickup_sepolicy_vndr.mk" dest="device/qcom/sepolicy_vndr/SEPolicy.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8953/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8953/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm660/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
-    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8450/audio/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8450/Android.bp" />
-    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8550/audio/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
-    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8650/audio/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8650/Android.bp" />
-  </project>
-  <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom_display" revision="15-sm8150" remote="vos" />
-  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="vos" revision="15-qpr2" />
 
   <!-- Hardware Pixel -->
   <project path="hardware/google/gchips" name="hardware_google_gchips" remote="vos" revision="15-qpr2" />
