@@ -7,6 +7,12 @@
             sync-c="true"
             sync-j="4" />
 
+   <remote  name="aospa"
+            fetch="https://github.com/AOSPA"
+            revision="vauxite"
+            sync-c="true"
+            sync-j="4" />
+
    <remote  name="gitlab"
             revision="refs/heads/15-qpr2"
             fetch="https://gitlab.com/voltageos"
@@ -413,7 +419,7 @@
   <project path="external/lottie" name="platform/external/lottie" groups="pdk" />
   <project path="external/lua" name="platform/external/lua" groups="pdk" />
   <project path="external/ltp" name="platform/external/ltp" groups="vts,pdk" />
-  <project path="external/lz4" name="platform/external/lz4" groups="pdk" />
+  <project path="external/lz4" name="AOSPA/android_external_lz4" remote="aospa" />
   <project path="external/lzma" name="platform/external/lzma" groups="pdk" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" groups="pdk" />
   <project path="external/mbedtls" name="platform/external/mbedtls" groups="pdk" />
