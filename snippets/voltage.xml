@@ -18,7 +18,7 @@
   </project>
 
   <project path="art" name="art" remote="vos" revision="15-qpr2" />
-  <project path="bionic" name="bionic" remote="vos" revision="15-qpr2" />
+  <project path="bionic" name="bionic" remote="jbub5" revision="15-qpr2+" />
   <project path="bootable/deprecated-ota" name="bootable_deprecated-ota" remote="vos" revision="15-qpr2" />
   <project path="bootable/recovery" name="bootable_recovery" remote="vos" revision="15-qpr2" />
   <!-- <project path="development" name="development" remote="vos" revision="15-qpr2" /> -->
@@ -51,7 +51,7 @@
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="vos" revision="15-qpr2" />
 
   <!-- Framework -->
-  <project path="frameworks/av" name="frameworks_av" remote="vos" revision="15-qpr2" clone-depth="1" />
+  <project path="frameworks/av" name="frameworks_av" remote="jbub5" revision="15-qpr2+" clone-depth="1" />
   <project path="frameworks/base" name="frameworks_base_new" remote="jbub5" revision="15-qpr2+" clone-depth="1" />
   <project path="frameworks/libs/modules-utils" name="frameworks_libs_modules-utils" remote="vos" revision="15-qpr2" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="vos" revision="15-qpr2" />
