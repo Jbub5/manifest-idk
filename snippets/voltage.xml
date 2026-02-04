@@ -17,7 +17,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <project path="art" name="art" remote="vos" revision="15-qpr2" />
+  <project path="art" name="art" remote="jbub5" revision="15-qpr2+" />
   <project path="bionic" name="bionic" remote="jbub5" revision="15-qpr2+" />
   <project path="bootable/deprecated-ota" name="bootable_deprecated-ota" remote="vos" revision="15-qpr2" />
   <project path="bootable/recovery" name="bootable_recovery" remote="vos" revision="15-qpr2" />
