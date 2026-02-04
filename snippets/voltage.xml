@@ -3,7 +3,7 @@
 
   <!-- Build -->
   <project path="build/blueprint" name="build_blueprint" remote="vos" revision="15-qpr2" />
-  <project path="build/make" name="build" remote="vos" revision="15-qpr2" >
+  <project path="build/make" name="build" remote="jbub5" revision="15-qpr2+" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -12,7 +12,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="build_soong" remote="vos" revision="15-qpr2" >
+  <project path="build/soong" name="build_soong" remote="jbub5" revision="15-qpr2+" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
