@@ -39,7 +39,7 @@
   <project path="external/GmsCompatConfig" name="external_GmsCompatConfig" remote="vos" revision="15-qpr2" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="vos" revision="15-qpr2" />
   <project path="external/json-c" name="external_json-c" remote="vos" revision="15-qpr2" />
-  <project path="external/mksh" name="external_mksh" remote="vos" revision="15-qpr2" />
+  <project path="external/mksh" name="external_mksh" remote="jbub5" revision="15-qpr2+" />
   <project path="external/ntfs-3g" name="external_ntfs-3g" remote="vos" revision="15-qpr2" />
   <project path="external/setupcompat" name="external_setupcompat" remote="vos" revision="15-qpr2" />
   <project path="external/tinycompress" name="external_tinycompress" remote="vos" revision="15-qpr2" />
