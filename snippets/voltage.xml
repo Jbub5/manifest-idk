@@ -127,7 +127,7 @@
   <project path="packages/modules/StatsD" name="packages_modules_StatsD" remote="vos" revision="15-qpr2" />
   <project path="packages/modules/Uwb" name="packages_modules_Uwb" remote="vos" revision="15-qpr2" />
   <project path="packages/modules/Virtualization" name="packages_modules_Virtualization" remote="vos" revision="15-qpr2" />
-  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="vos" revision="15-qpr2" />
+  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="jbub5" revision="15-qpr2+" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="vos" revision="15-qpr2" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="vos" revision="15-qpr2" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="vos" revision="15-qpr2" />
